@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    min-height: 100vh;
+    color: white;
+   
+    
+}
+
+
+.main-container{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 600px;
+    padding: 3rem;
+    gap: 10px;
+}
+
+h1{
+    color: white;
+    margin: 0;
+    
+}
+.colorful-text{
+    color: #4ADF86;
+    font-size:34px;
+    margin-bottom: 1rem;
+    
+}
+h3{
+    font-weight: 200;
+    margin-bottom: 2.5rem;
+    color:#D5D4D8;
+}
+
+.btn{
+    background-color: #10B981;
+    color: white;
+    width: 191px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.line{
+    border-top: 1px solid #2F3E53;
+}
+
+.password-container{
+    display: flex;
+    gap: 10px;
+    border: none;
+    margin-top: 2rem;
+    
+}
+
+.container{
+    background-color: #273549;
+    display: flex;
+    overflow: auto;
+    white-space: normal;
+
+    justify-content: space-between;
+
+    border-radius: 6px;
+    min-height: 80px;
+    min-width: 300px;
+    
+    padding: 15px 10px;
+    color: #55F991;
+    
+}
+
+@media (max-width:600px){
+    .password-container{
+        flex-direction: column;
+    }
+}
+
+.utilities{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+
+input{
+    display: block;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.password{
+    font-size: 1rem;
+    padding: 5px;
+        
+}
+.password-button{
+    height: 30px;
+    width: 70px;
+    padding: 5px 10px;
+}

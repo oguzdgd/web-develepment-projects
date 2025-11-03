@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <main class="main-container">
+            <header> 
+                <h1 >Generate a </h1>
+                <p class="colorful-text"> random password </p>
+                <h3>Never use an insecure password again. </h3>
+            </header>
+            
+            <div class="utilities"> 
+                
+                <label for="password-lenght">
+                     Password Length 
+                    <input id="password-length" type="number" placeholder="Length"/>
+                </label>
+                
+                <label for="toggle">
+                    Symbols and Numbers On/Off
+                    <input type="checkbox" id="toggle" value="off"/>
+                </label>
+                
+            </div>
+            
+            <button class="btn" onclick="generate()" >Generate passwords</button>
+             
+            <div class="line"><div/>
+            <div class="password-container">
+                <div class="container">
+                    <p id="container1" class="password"> </p>
+                    <button class="password-button"  onclick="copy()"> Copy</button>
+                </div>
+                <div class="container">
+                    <p id="container2" class="password"> </p>
+                    <button class="password-button" onclick="copy()">Copy</button>
+                </div>
+            </div>
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
